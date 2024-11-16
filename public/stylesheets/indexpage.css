@@ -1,0 +1,90 @@
+/* General page styles */
+body {
+    background-color: #f8f9fa;
+    color: #333;
+    font-family: 'Arial', sans-serif;
+  }
+  
+  h1 {
+    text-align: center;
+    margin: 20px 0;
+    color: #2c3e50;
+  }
+  
+  /* Map container */
+  #map {
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Card styles */
+  .card {
+    border: none;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s, box-shadow 0.2s;
+  }
+  
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  /* Image styling */
+  .card img {
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /* Card body */
+  .card-body {
+    padding: 15px;
+  }
+  
+  .card-title {
+    color: #2980b9;
+    margin-bottom: 10px;
+    font-size: 1.5em;
+  }
+  
+  .card-text {
+    margin-bottom: 15px;
+    color: #555;
+  }
+  
+  .card-text small {
+    font-style: italic;
+    color: #7f8c8d;
+  }
+  
+  /* Button styling */
+  .btn-primary {
+    background-color: #3498db;
+    border-color: #3498db;
+    color: #fff;
+    transition: background-color 0.2s;
+  }
+  
+  .btn-primary:hover {
+    background-color: #2980b9;
+  }
+  
+  /* Responsive layout */
+  @media (max-width: 768px) {
+    .card {
+      margin-bottom: 20px;
+    }
+  
+    .card img {
+      border-radius: 10px 10px 0 0;
+    }
+  
+    .card-body {
+      text-align: center;
+    }
+  }
+  
